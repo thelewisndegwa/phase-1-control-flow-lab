@@ -9,6 +9,8 @@ function scuberGreetingForFeet(price){
     return 'No can do.'
 }
 console.log(scuberGreetingForFeet());
+
+
 function ternaryCheckCity(city){
   if (city === "NYC"){
     return 'Ok, sounds good.'
@@ -17,6 +19,8 @@ function ternaryCheckCity(city){
     return 'No go.'
   }
 console.log(ternaryCheckCity())
+
+
 function switchOnCharmFromTip(trip){
 if (trip === "generous"){
   return 'Thank you so much.'
