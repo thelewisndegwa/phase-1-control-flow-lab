@@ -32,14 +32,5 @@ else (trip !== "any thing else")
   return 'Bye.'
 }
 console.log(switchOnCharmFromTip())
-console.log(ternaryCheckCity())
-function switchOnCharmFromTip(trip){
-if (trip === "generous"){
-  return 'Thank you so much.'
-}
-else if (trip === "not as generous"){
-  return 'Thank you.'
-}
-else (trip !== "any thing else")
-  return 'Bye.'
-}
+
+
